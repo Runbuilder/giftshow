@@ -44,7 +44,7 @@ function generateContent(language) {
   formData.append('image', imageInput.files[0]);
 
 
-  const Url = `http://localhost:3000/generate`
+  const Url = `https://port-0-giftserver-9zxht12blq81t0ot.sel4.cloudtype.app/generate`
 
   fetch(Url, {
     method: 'POST',
